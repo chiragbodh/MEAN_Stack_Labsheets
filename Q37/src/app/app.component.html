@@ -1,0 +1,5 @@
+<main>
+<h1>{{ title }}</h1>
+<p class="student">Chirag Bodh · MCA · MCFS203P</p>
+<p>This public practice API simulates writes; it does not permanently save the record.</p><form #form="ngForm" (ngSubmit)="form.valid && save()"><label>Name <input name="name" [(ngModel)]="name" required></label><label>Email <input name="email" type="email" [(ngModel)]="email" required email></label><button type="submit" [disabled]="form.invalid || saving">Save</button></form><p *ngIf="saving">Saving...</p><p class="error" *ngIf="error">{{ error }}</p><p class="success" *ngIf="response">Success: API accepted the request.</p><pre *ngIf="response">{{ response | json }}</pre>
+</main>

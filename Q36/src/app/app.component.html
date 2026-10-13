@@ -1,0 +1,5 @@
+<main>
+<h1>{{ title }}</h1>
+<p class="student">Chirag Bodh · MCA · MCFS203P</p>
+<button (click)="load()" [disabled]="loading">Reload users</button><p *ngIf="loading">Loading...</p><p *ngIf="error" class="error">{{ error }}</p><table *ngIf="users.length"><thead><tr><th>ID</th><th>Name</th><th>Email</th></tr></thead><tbody><tr *ngFor="let user of users"><td>{{ user.id }}</td><td>{{ user.name }}</td><td>{{ user.email }}</td></tr></tbody></table>
+</main>

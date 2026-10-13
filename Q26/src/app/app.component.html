@@ -1,0 +1,5 @@
+<main>
+<h1>{{ title }}</h1>
+<p class="student">Chirag Bodh · MCA · MCFS203P</p>
+<button (click)="visible = !visible">{{ visible ? 'Hide' : 'Show' }} students</button><ul *ngIf="visible"><li *ngFor="let student of students" [ngClass]="student.marks >= 40 ? 'pass' : 'fail'" [ngStyle]="{'background-color': student.marks >= 40 ? '#ecf8ef' : '#fff0f0'}">{{ student.name }} — {{ student.marks }}<span [ngSwitch]="grade(student.marks)"> · <b *ngSwitchCase="'A'">Grade A</b><b *ngSwitchCase="'B'">Grade B</b><b *ngSwitchCase="'C'">Grade C</b><b *ngSwitchDefault>Fail</b></span></li></ul>
+</main>

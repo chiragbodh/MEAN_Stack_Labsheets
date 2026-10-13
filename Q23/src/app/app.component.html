@@ -1,0 +1,5 @@
+<main>
+<h1>{{ title }}</h1>
+<p class="student">Chirag Bodh · MCA · MCFS203P</p>
+<label>Template reference <input #name placeholder="Enter your name"></label><button (click)="savedName = name.value">Show name</button><p>Saved: {{ savedName }}</p><label>Keyup event <input (keyup)="onKeyup($event)" placeholder="Type for live output"></label><p>Live: {{ liveName }}</p>
+</main>

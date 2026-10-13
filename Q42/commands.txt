@@ -1,0 +1,8 @@
+// Start MongoDB Community Server first, then run: mongosh
+show dbs
+use college
+db.createCollection('students')
+db.version()
+show collections
+// An empty database may not appear in show dbs until it has stored data.
+// If students already exists, skip createCollection; do not delete existing data.

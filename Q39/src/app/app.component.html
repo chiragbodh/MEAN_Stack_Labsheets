@@ -1,0 +1,5 @@
+<main>
+<h1>{{ title }}</h1>
+<p class="student">Chirag Bodh · MCA · MCFS203P</p>
+<button (click)="load(false)" [disabled]="loading">Load valid API</button><button (click)="load(true)" [disabled]="loading">Test wrong URL</button><p *ngIf="loading" role="status">Loading...</p><p *ngIf="error" class="error" role="alert">{{ error }}</p><table *ngIf="users.length"><thead><tr><th>ID</th><th>Name</th><th>Email</th></tr></thead><tbody><tr *ngFor="let user of users"><td>{{ user.id }}</td><td>{{ user.name }}</td><td>{{ user.email }}</td></tr></tbody></table>
+</main>

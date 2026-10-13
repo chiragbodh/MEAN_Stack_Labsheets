@@ -1,0 +1,5 @@
+<main>
+<h1>{{ title }}</h1>
+<p class="student">Chirag Bodh · MCA · MCFS203P</p>
+<label>First number <input type="number" [(ngModel)]="first"></label><label>Second number <input type="number" [(ngModel)]="second"></label><div><button (click)="calculate('+')">Add</button><button (click)="calculate('-')">Subtract</button><button (click)="calculate('*')">Multiply</button><button (click)="calculate('/')">Divide</button></div><p class="error" *ngIf="error">{{ error }}</p><p *ngIf="result !== null">Result: {{ result }}</p>
+</main>

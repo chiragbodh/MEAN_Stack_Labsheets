@@ -1,0 +1,16 @@
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): index.js[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node index.js`[39m
+Original Array: [ 10, 20, 30, 40, 50 ]
+Sum: 150
+Average: 30
+Node.js NPM Project is Running!
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+Original Array: [ 10, 20, 30, 40, 50 ]
+Sum: 150
+Average: 30
+Chirag Bodh: Nodemon restart verified!

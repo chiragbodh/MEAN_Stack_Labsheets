@@ -1,0 +1,5 @@
+<main>
+<h1>{{ title }}</h1>
+<p class="student">Chirag Bodh · MCA · MCFS203P</p>
+<label>Type here <input (focus)="log('focus')" (blur)="log('blur')" (keyup)="onKey($event)"></label><div class="event-area" (mouseover)="log('mouseover')" (mouseout)="log('mouseout')" (dblclick)="log('dblclick')">Hover, leave, or double-click this box</div><button (click)="events = []">Clear log</button><ol><li *ngFor="let entry of events">{{ entry }}</li></ol>
+</main>

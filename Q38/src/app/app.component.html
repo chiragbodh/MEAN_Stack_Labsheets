@@ -1,0 +1,5 @@
+<main>
+<h1>{{ title }}</h1>
+<p class="student">Chirag Bodh · MCA · MCFS203P</p>
+<p>Changes are simulated by JSONPlaceholder and kept in this page until reload.</p><p *ngIf="busy">Loading...</p><p *ngIf="error" class="error">{{ error }}</p><p *ngIf="message" class="success">{{ message }}</p><table><thead><tr><th>Name</th><th>Email</th><th>Actions</th></tr></thead><tbody><tr *ngFor="let user of users"><td>{{ user.name }}</td><td>{{ user.email }}</td><td><button (click)="edit(user)" [disabled]="busy">Edit</button><button (click)="remove(user.id)" [disabled]="busy">Delete</button></td></tr></tbody></table><form *ngIf="selected as item" #form="ngForm" (ngSubmit)="form.valid && update()"><h2>Edit user {{ item.id }}</h2><input aria-label="Name" name="name" [(ngModel)]="item.name" required><input aria-label="Email" name="email" [(ngModel)]="item.email" type="email" required email><button [disabled]="form.invalid || busy">Save changes</button><button type="button" (click)="selected = null">Cancel</button></form>
+</main>

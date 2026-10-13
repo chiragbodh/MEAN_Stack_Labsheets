@@ -1,0 +1,320 @@
+{
+  "environment": "Linux / Node.js v24.19.0",
+  "date": "2026-10-13",
+  "builds": [
+    {
+      "question": 8,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 9,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 10,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 11,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 12,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 13,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 14,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 15,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 16,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 17,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 18,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 19,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 20,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 21,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 22,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 23,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 24,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 25,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 26,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 27,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 28,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 29,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 30,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 31,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 32,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 33,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 34,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 35,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 36,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 37,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 38,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 39,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 40,
+      "exit": 0,
+      "tail": "Build passed"
+    },
+    {
+      "question": 41,
+      "exit": 0,
+      "tail": "Build passed"
+    }
+  ],
+  "node": [
+    {
+      "question": 1,
+      "file": "hello.js",
+      "exit": 0
+    },
+    {
+      "question": 2,
+      "file": "index.js",
+      "exit": 0
+    },
+    {
+      "question": 3,
+      "file": "index.js",
+      "exit": 0
+    },
+    {
+      "question": 3,
+      "file": "commonjs/index.cjs",
+      "exit": 0
+    },
+    {
+      "question": 4,
+      "file": "es6demo.js",
+      "exit": 0
+    },
+    {
+      "question": 5,
+      "file": "classes.js",
+      "exit": 0
+    },
+    {
+      "question": 6,
+      "file": "Q6_event_loop.js",
+      "exit": 0
+    },
+    {
+      "question": 42,
+      "syntax": "setup.mongodb.js",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "question": 44,
+      "syntax": "crud-create-read.mongodb.js",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "question": 45,
+      "syntax": "crud-update-delete.mongodb.js",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "question": 46,
+      "syntax": "query-operators.mongodb.js",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "question": 47,
+      "syntax": "aggregation.mongodb.js",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "question": 48,
+      "syntax": "index.js",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "question": 49,
+      "syntax": "index.js",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "question": 50,
+      "syntax": "server.js",
+      "exit": 0,
+      "error": ""
+    }
+  ],
+  "q17": {
+    "testsPassed": 2,
+    "runner": "Angular 20 experimental unit-test builder / Vitest 3.2.4"
+  },
+  "q50": {
+    "database": "In-memory test double, not MongoDB integration",
+    "results": [
+      {
+        "method": "POST",
+        "path": "/api/students",
+        "status": 201
+      },
+      {
+        "method": "GET",
+        "path": "/api/students",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/api/students/6ace35fbf46c5d6f4571df0c",
+        "status": 200
+      },
+      {
+        "method": "PUT",
+        "path": "/api/students/6ace35fbf46c5d6f4571df0c",
+        "status": 200
+      },
+      {
+        "method": "DELETE",
+        "path": "/api/students/6ace35fbf46c5d6f4571df0c",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/api/students/6ace35fbf46c5d6f4571df0c",
+        "status": 404
+      },
+      {
+        "method": "GET",
+        "path": "/api/students/invalid",
+        "status": 400
+      },
+      {
+        "method": "POST",
+        "path": "/api/students",
+        "status": 400
+      },
+      {
+        "method": "POST",
+        "path": "/api/students",
+        "status": 400
+      }
+    ]
+  },
+  "limitations": [
+    "No real MongoDB integration run: server startup permission failure",
+    "No screenshots taken on user computer",
+    "No browser end-to-end verification of Angular and React interactions"
+  ]
+}

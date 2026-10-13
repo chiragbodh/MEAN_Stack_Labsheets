@@ -1,0 +1,15 @@
+{
+  "name": "mcfs203p-q50",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "mongodb": "6.20.0",
+    "express": "5.1.0"
+  }
+}

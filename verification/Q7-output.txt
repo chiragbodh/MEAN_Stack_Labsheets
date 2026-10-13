@@ -1,0 +1,21 @@
+Q7: Blocking vs. Non-blocking Code
+
+1. fs.readFileSync:
+This is sample.txt. It is used to demonstrate blocking and non-blocking file reading.
+
+2. fs.readFile callback:
+This is sample.txt. It is used to demonstrate blocking and non-blocking file reading.
+
+3. fs.promises with async/await:
+This is sample.txt. It is used to demonstrate blocking and non-blocking file reading.
+
+HTTP server is running at http://localhost:3000
+Open http://localhost:3000/fast and http://localhost:3000/slow
+To observe blocking: open /slow, then quickly request /fast in another tab.
+Stop the server with Ctrl+C in the terminal.
+/fast request handled
+/slow started: blocking the event loop for 5 seconds...
+/slow finished
+/fast request handled
+
+Fast request blocked for 4853ms

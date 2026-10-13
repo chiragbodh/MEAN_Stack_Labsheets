@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "MCFS203P-Q43-1",
+    "name": "Chirag Bodh",
+    "course": "MCA",
+    "city": "Saharanpur",
+    "marks": 88,
+    "labSet": "MCFS203P-Q43"
+  },
+  {
+    "_id": "MCFS203P-Q43-2",
+    "name": "Aman Kumar",
+    "course": "MCA",
+    "city": "Jaipur",
+    "marks": 78,
+    "labSet": "MCFS203P-Q43"
+  },
+  {
+    "_id": "MCFS203P-Q43-3",
+    "name": "Priya Sharma",
+    "course": "BCA",
+    "city": "Delhi",
+    "marks": 91,
+    "labSet": "MCFS203P-Q43"
+  }
+]
