@@ -22,18 +22,32 @@ https://v20.angular.dev/guide/testing/unit-tests.
 ## Download
 
 Clone this repository or use GitHub Code → Download ZIP and extract it.
-Open the extracted root folder in VS Code. Each Q folder is an independent
-practical; there is no root npm install command.
+Open the extracted root folder in VS Code. Select a unit from the
+[unit index](README.md), then open the required Q folder inside it.
+Each Q folder is an independent practical; run npm commands from that
+question folder, not from the unit or repository root.
 
 ## Node and React
 
-Read Q1–Q7 READMEs for node commands. Q2's npm project is in Q2/node-lab.
-For each React practical Q8–Q13: open its folder, run npm install, then
-npm run dev. npm run build creates dist; npm run preview serves that build.
+Node practicals Q1–Q7 are in [Unit 1](Unit-1-NodeJS/). Read their READMEs
+for node commands. Q2's npm project is in `Unit-1-NodeJS/Q2/node-lab/`.
+
+React practicals Q8–Q13 are in [Unit 2](Unit-2-ReactJS/). For example,
+run these commands from the repository root for Q8:
+
+```bash
+cd Unit-2-ReactJS/Q8
+npm install
+npm run dev
+```
+
+`npm run build` creates dist; `npm run preview` serves that build.
 
 ## Angular
 
-Open one Q14–Q41 folder, run npm install, then npm start.
+Angular practicals Q14–Q41 are grouped in Units 3–6. Open the question
+inside its unit, run npm install, then npm start. For example, Q21 is
+at `Unit-4-Events-in-Angular/Q21/`.
 The default URL is http://localhost:4200. Stop one server before opening the
 next. npm run build compiles that question. Q17 also includes npm test.
 The global CLI installation and ng new demonstration are explained in Q14.
@@ -41,6 +55,7 @@ Do not run ng new inside a completed Q folder.
 
 ## MongoDB
 
+MongoDB practicals Q42–Q50 are in [Unit 7](Unit-7-MongoDB/).
 Start the MongoDB service on your own machine. Q42 explains setup.
 Q43 is a GUI practical with a sample input JSON file and step-by-step actions.
 Q44–Q47 run in mongosh with --file; each has a separate tagged sample dataset.
@@ -52,7 +67,8 @@ Q50's Postman collection covers all five routes and selected error cases.
 
 For every question, keep its number and source filename visible in VS Code,
 capture the code, run it, and capture the actual terminal/browser output.
-Save images in Qn/screenshots/. Use several images for longer programs.
+Save images in the question's `screenshots/` folder, for example
+`Unit-1-NodeJS/Q1/screenshots/`. Use several images for longer programs.
 Windows: Win+Shift+S. Do not submit README text or sample data as execution proof.
 
 ## Common issues

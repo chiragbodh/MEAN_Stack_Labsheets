@@ -27,3 +27,11 @@ local MongoDB installation before submitting those execution screenshots.
 
 See verification/automated-results.json for recorded command statuses and
 Q50 mock HTTP cases. Screenshot requirements are listed per question.
+
+## Unit-wise organization
+
+All 50 question folders now sit inside their corresponding seven unit
+folders. Every original question file was compared byte-for-byte after
+the move; the program files and question instructions are unchanged.
+The earlier command logs retain their original paths. The build results
+above were recorded before this folder reorganization.
